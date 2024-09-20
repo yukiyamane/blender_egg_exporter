@@ -196,7 +196,7 @@ letter_list = []
 letter_list.append(render_master.letter_start)
 
 obj_armature = bpy.context.active_object
-render_armature_anim = RenderArmatureAnim(obj_armature, "kyuri_walk")
+render_armature_anim = RenderArmatureAnim(obj_armature, "action_name")
 render_armature_anim.anim_name()
 render_armature_anim.render_start()
 render_armature_anim.render_joint()
